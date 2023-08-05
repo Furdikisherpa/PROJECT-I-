@@ -1,0 +1,23 @@
+#t2 td tr{
+    margin-top:20px;
+   border: none;
+    /* border-collapse: collapse;  */
+    
+}
+
+td{
+    border: none;
+}
+
+
+
+.container .row{
+    margin-top: 40px;
+}
+
+
+table{
+    border: 1px solid rgb(168, 156, 156)
+
+}
+

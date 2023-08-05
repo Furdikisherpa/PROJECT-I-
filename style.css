@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+        background-color: #0092bb;
+        color: white;
+        padding: 20px 0;
+
+}
+
+header nav a{
+    color: black;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.active .nav:hover{
+    color: green;
+}
+
+header div.sign-in-up button{
+    display: flex;
+    flex-direction: row;
+    background-color: #75cfb8;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 4px 12px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header div.sign-in-up button:last-child{
+    background-color: #0092bb;
+}
+
+div.popup-container{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 1000;
+}
+
+div.popup-container div.popup{
+    background-color: #f0f0f0;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px 25px 30px 25px;
+}
+
+div.popup-container div.popup h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #0092bb;
+
+}
+
+div.popup-container div.popup h2 button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    font-weight: 550;
+    color: #797775;
+}
+div.popup-container div.popup input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0092bb;
+    border-radius: 0;
+    font-weight: 550;
+    font-size: 14px;
+    outline: none;
+}
+
+div.popup-container div.popup button.login-btn, div.popup-container div.register button.register-btn{
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    background-color: #0092bb;
+    padding: 4px 10px;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+div.popup-container div.popup div.text{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+ div.popup div.sign-up-text {
+    cursor:pointer;
+    text-align: center;
+}
+
+div.popup div.login-up-text {
+    cursor:pointer;
+    text-align: center;
+}
+div.popup-container div.popup div.sign-up-text a{
+    color: #0092bb;
+}
+div.popup-container div.popup div.login-up-text a{
+    color: #0092bb;
+}
+div.popup-container div.register{
+    background-color: #edeef7;
+}
+
+div.popup-container div.register h2{
+    color: #0092bb;
+
+}
+
+div.popup-container div.register input{
+    border-bottom-color: #0092bb;
+
+}
+
+div.popup-container div.register button.register-btn{
+    background-color: #0092bb;
+}
+
+
+div.slide div.carousel-inner div.c-item{
+ height: 480px;
+ position: relative;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+.c-title{
+    padding-top: 2px;
+}
+
+.dest-block .card img{
+    height: 300px;
+  }
+
+  .dest-block .card-group{
+    column-gap: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .dest-title {
+    margin-top: 250px;
+  }
+
+  .dest-title a{
+    border-radius: 10px;
+  }
+
+.contactus{
+    height: 480px;
+}
+
+
+.packages{
+    background-color: gray;
+    height: 650px;
+}
+hr{
+    color: rgb(155, 154, 154);
+}
+  .packages .card{
+    height: 250px;
+  }
+
+ 
+
+  .pck-img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    margin-top: 0px;
+    
+  }
+
+  .card{
+    border:none;
+    border-radius: 0;
+    border-top-right-radius: 0;
+    
+  }
+
+.packages .card-group{
+    column-gap: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+table, th, td {
+    border-right: 1px solid rgb(155, 154, 154);
+    border-collapse: collapse;
+    padding: 10px 10px;
+    padding-top: 0;
+    margin-top: -10px;
+    
+}
+td{
+    font-size: small;
+}
+th{
+    font-size: 20px;
+}
+.pck-button{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

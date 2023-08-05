@@ -1,0 +1,82 @@
+#name{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#c-group{
+    margin-left: 100px;
+}
+
+#c-group1{
+    margin-left: 300px;
+    margin-top: -220px;
+}
+
+.detail{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* gallery */
+#gallery-group h4{
+    margin-left: 0px;
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+#gallery-group{
+    margin-left: 100px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 150px;
+    border-radius: 5px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* overview */
+  #overview{
+    margin-left: 100px;
+  
+}
+
+  #overview h4{
+    margin-left: 0px;
+    margin-top: 230px;
+    font-weight: lighter;
+}
+
+/* itenary */
+
+    #itinerary{
+        margin-left: 100px;
+    }
+
+    #itinerary h2{
+        text-decoration: underline;
+    }
+
+    #itinerary h4{
+        margin-left: 0px;
+        margin-top: 30px;
+        font-weight: lighter;
+    }
